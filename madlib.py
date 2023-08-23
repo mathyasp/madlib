@@ -8,9 +8,14 @@
 
 # Your madlib must collect at least 6 words!
 
+place = input("Place: \n")
+action = input("Action: \n")
+color = input("Color \n")
+food = input("Food: \n")
+animal = input("Animal: \n")
+famous_singer = input("Famous Singer: \n")
 
-
-
+print(f"{famous_singer} went to the zoo in {place}, where they saw one {animal} eating some {food}. {famous_singer} started {action} immediately, as their face was bright {color}. After that, {famous_singer} and the {animal} became best friends")
 
 
 
